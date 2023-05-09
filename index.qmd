@@ -132,10 +132,13 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 ## Data Science in Higher Education Context-II
 
 ::: {style="text-align: center; font-size: 30px"}
+::: {.nonincremental}
+
 -   The growing demand for competent data scientists is being met by a significant number of students who have an interest in acquiring and applying data science skills. (Donoghue et al., 2021).
     -   Students are interested in enrolling data science courses and/or pursuing a data science career.
 -   Introductory data science (IDS) course experiences have a potential to attract students to pursue majors, minors, tracks, and certificates offered by institutions (National Academies of Sciences, Engineering and Medicine Consensus Report, 2018)
     -   Thus, IDS courses have an important role in students' decisions to become data scientists.
+:::
 :::
 
 ## Introduction to Data Science Courses
@@ -150,7 +153,7 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 
 ## Teaching Data Science
 
-::: columns
+:::: columns
 ::: {.column width="40%"}
 ::: fragment
 ![](teaching-01.jpg){fig-align="center" width="60%"} ![](teaching-02.jpg){fig-align="center" width="80%"}
@@ -159,12 +162,14 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 
 ::: {.column width="60%"}
 ::: {style="text-align: left; font-size: 28px"}
+::: {.nonincremental}
 -   Throughout history, humanity has continually evolved in its pursuit of knowledge, developing various teaching and learning approaches, methods, and techniques to effectively communicate and impart valuable lessons from prehistoric times to the present.
 -   Data science, which dates back 1990s, is a relatively new discipline (Kelleher & Tierney, 2018) and the nature of teaching data science has been studied in a systematic manner recently compared to the other disciplines. (Schwab- McCoy et al. 2021)
     -   Thus, it can be considered as we are still at the beginning of learning how to teach it.
 :::
 :::
 :::
+::::
 
 ## Pedagogical Content Knowledge-I
 
@@ -185,10 +190,12 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 ![Figure 2. Hexagon model of pedagogical content knowledge for science teaching (Park & Oliver,2008, p.279)](pck-park-oliver-2008.png){fig-align="center" width="100%"}
 
 ## Aim of the study
+::: {.nonincremental}
 
 -   The objectives of this study, which is planned in line with the capacity building of educators needs regarding Introduction to Data Science teaching, consist of two stages:
     -   exploring the Pedagogical Content Knowledge of the IDS instructors; and
     -   developing a measurement tool that measures PCK for introduction to data science teaching.
+:::
 
 ## Methodology
 
@@ -197,7 +204,7 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
     -   Researchers initially employ a qualitative method to uncover the essential variables that underlie a phenomenon of interest and provide insights for a subsequent quantitative method. Following that, their focus is on identifying the relationships among these variables.
 
 ::: fragment
-![](exploratory.png){fig-align="center" width="60%"}
+![](exploratory.PNG){fig-align="center" width="60%"}
 
 ::: {style="text-align: left;"}
 Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
@@ -212,6 +219,7 @@ Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
 ## Sampling Procedure
 
 ::: {style="font-size: 26px"}
+::: {.nonincremental}
 -   We defined the target population to consist of instructors who **taught an introductory data science course at least twice** at the undergraduate level.
 -   Our rationale for recruiting participants was as following:
     -   We tried to **standardize the name of the IDS courses**.
@@ -220,7 +228,7 @@ Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
     -   When an instructor teaches a course for the first time, they focus on multiple aspects of the course as a novice.
         -   Thus, instructors who have gone through the **second iteration** of the course would be able to reflect deeper about the course and the students.
 -   We recruited **16 participants** (2 pilot, 14 main study) via mailing lists and online forums with large teacher-scholar communities.
-
+:::
 :::
 
 ## Sample Profile
@@ -230,7 +238,7 @@ Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
 ::: columns
 ::: {.column width="50%"}
 ::: {style="font-size: 28px"}
-::: fragment
+::: {.nonincremental}
 -   All participants were from Northern America​
 -   Only 4 instructors were the sole instructor in their IDS course. The other participants have either co-instructors or PGTAs/graders.
 -   The instructors had terminal degrees in varying subjects including statistics, mathematics, computer science, genetics, and economics.
@@ -276,7 +284,7 @@ Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
 ::: {.column width="50%"}
 ::: {style="font-size: 28px"}
 ::: fragment
--   Students are coming from almost every major/department​
+-   Students are coming from almost every major/department.
 
     -   Majority -- Math, Stat, CS, Data Science
     -   Others -- Engineering, business school, social science, economics, humanities, life sciences, environmental science, political science, health science, undecided
@@ -311,12 +319,13 @@ Table 1: Class sizes reported by IDS instructors
 ## Data Collection
 
 ::: {style="font-size: 32px"}
+::: {.nonincremental}
 
 -   We collected data through online semi-structured interviews from 14 participants.
     -   We designed specific questions to explore teaching experiences of IDS instructors.
     -   We also had some follow-up questions depending on the responses to elaborate their PCK.
 -   Each participant was compensated with a £ 50 gift card for their time.
-
+:::
 :::
 
 ## Preliminary Data Analysis I
@@ -341,7 +350,7 @@ Table 1: Class sizes reported by IDS instructors
 ::: columns
 ::: {.column width="60%"}
 ::: {style="font-size: 24px"}
-::: fragment
+::: {.nonincremental}
 
 - What does a PCK Map refer to?
     -   The PCK mapping approach used in this study was based on the hexagon model of PCK (Park & Oliver, 2008), which defines PCK as the integration of six components.
@@ -365,13 +374,14 @@ Table 1: Class sizes reported by IDS instructors
 ## Validity and Reliability Evidences of the Study
 
 ::: {style="font-size: 28px"}
+::: {.nonincremental}
 
 To enhance the trustworthiness of the study, we collected indicators for transferability, dependability, and credibility (Merriam & Tisdell, 2016).
 
 -   Particularly, we provided a detailed description for our participants' profile, data collection and data analysis procedures.
 -   We also had different participants (e.g., differed in terms of year of experience, terminal degree etc.) based on our selection criteria which enabled maximum variation in our sample.
 -   Our research team continuously compared and discussed to determine the extent of codebook based on the theoretical framework and data of the study.
-
+:::
 :::
 
 ## Initial Findings on Students' Difficulties
@@ -386,7 +396,7 @@ We also introduce a PCK map of an IDS instructor participated in our study.
 ::: columns
 ::: {.column width="50%"}
 ::: {style="font-size: 28px"}
-::: fragment
+::: {.nonincremental}
 -   Within the theme of Syntactic Knowledge Difficulties, we identified two categories based on the reports from IDS instructors.
     -   The first category related to students' difficulties with markup languages and reproducibility tools,
     -   The second category related to difficulties with programming languages. The codebook for these difficulties is provided in Table 2.
