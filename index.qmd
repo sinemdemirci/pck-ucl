@@ -1,0 +1,624 @@
+---
+title: "Pedagogical Content Knowledge in Data Science Education"
+subtitle: "An Assessment of Readiness to Teach Data Science in Higher Education"
+author: <em>Sinem Demirci, Ph.D.</em>
+date: "2023-05-10"
+date-format: "MMMM D[<sup style='font-size:65%;'>th</sup>], YYYY"
+format: 
+  revealjs:
+      theme: slide-style.scss
+      slide-number: true
+      incremental: true
+      chalkboard: true
+---
+
+## Hello!
+
+::: {style="text-align: center; font-size: 28px"}
+```{=html}
+<img src="sinem.jpeg" alt="A headshot of a woman with curly, short, shoulder-length hair with green eyes."
+  style="width: 280px; height: 280px; border-radius: 50%; margin-top: 5px; border: 1px solid whitesmoke; padding: 5px;">
+```
+<h1 style="font-size: 36px; margin-top: 20px;line-height: 0.5;">
+
+Sinem Demirci, PhD
+
+</h1>
+
+<h1 style="font-size: 36px; margin-top: 20px; line-height: 1.5;">
+
+Postdoctoral Visiting Researcher/Lecturer - UCL
+
+</h1>
+
+`r fontawesome::fa(name = "link")` <a href = "http://sinemdemirci.github.io" style="font-size: 30px; line-height: 0.5;">sinemdemirci.github.io</a>\
+`r fontawesome::fa(name = "github")` <a href = "http://github.com/sinemdemirci" style="font-size: 30px; line-height: 0.5;">sinemdemirci</a>\
+`r fontawesome::fa(name = "twitter")` <a href = "http://twitter.com/sinemmdemirci" style="font-size: 30px; line-height: 0.5;">sinemmdemirci</a>\
+`r fontawesome::fa(name = "linkedin")` <a href = "https://www.linkedin.com/in/drsinemdemirci/" style="font-size: 30px; line-height: 0.5;">drsinemdemirci</a>
+:::
+
+## Today's Menu
+
+In this talk, I will be talking about
+
+-   Data Science Education in Higher Education Context
+-   The role of Introductory Data Science (IDS) Courses in Data Science Education
+-   Pedagogical Content Knowledge (PCK) and Its Relevance to Teaching Data Science
+-   Our Research on PCK of IDS instructors and Initial Findings
+
+## What is Data Science?
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+-   Data science is a field that blends multiple areas and demands expertise in a range of skills and concepts spanning statistics, computer science, mathematics, and other domains.
+-   An agreement for a single definition for data science is a difficult task because of its multifaceted nature (Mike and Hazzan, 2023).
+-   A Venn diagram (Figure 1) that integrates Application Domain, Mathematics & Statistics, and Computer Science is typically used to help illustrate the interdisciplinary nature of data science as a discipline.
+:::
+:::
+
+::: {.column width="50%"}
+::: incremental
+::: {style="font-size: 28px"}
+::: fragment
+```{=html}
+<img src="data-science.png" alt="Venn diagram of data science composed of application domain, computer science, and mathematics and statistics. Data science is located at the intersection of these three domains."
+  style="width: 450px; height: 450px; margin-top: 15px; border: 3px solid whitesmoke; padding: 5px;">
+```
+:::
+
+::: fragment
+Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
+:::
+:::
+:::
+:::
+:::
+
+## Some Data of Data Science Jobs
+
+::: columns
+::: {.column width="55%"}
+::: {style="text-align: left; font-size: 25px"}
+::: fragment
+`r fontawesome::fa(name = "link")` <a href="https://www.bls.gov/ooh/math/home.htm" style="font-size: 25px; line-height: 0.5;">The US Bureau of Labor Statistics, Occupational Outlook Handbook</a>
+
+-   Between 2021 to 2031, data scientist jobs are anticipated to witness a 36% growth, while the demand for operations research analysts (or data analysts) is expected to rise by 23%.
+:::
+
+::: fragment
+`r fontawesome::fa(name = "link")` <a href="https://www.linkedin.com/pulse/linkedin-jobs-rise-2022-25-us-roles-growing-demand-linkedin-news/" style="font-size: 25px; line-height: 1.2;">LinkedIn Jobs on the Rise 2022: The 25 U.S. roles that are growing in demand</a>: Machine Learning Engineer (4<sup style='font-size:65%;'>th</sup>)
+:::
+
+::: fragment
+`r fontawesome::fa(name = "link")` <a href="https://www.coursera.org/articles/data-scientist-jobs" style="font-size: 25px; line-height: 0.5;">6 In-Demand Data Scientist Jobs in 2023</a>
+
+-   Data Scientist, Data analyst, data engineer, data architect, machine learning engineer, business intelligence engineer
+:::
+
+::: fragment
+`r fontawesome::fa(name = "link")` <a href="https://www.indeed.com/career-advice/finding-a-job/why-data-science-jobs-are-in-high-demand" style="font-size: 23px; line-height: 0.5;">Indeed Editorial Team</a> outlined the reasons for high demand in data science jobs as follows:
+:::
+:::
+:::
+
+::: {.column width="45%"}
+::: {style="text-align: left; font-size: 23px"}
+::: fragment
+-   Low number of data science professionals
+-   Value of data science
+-   Competitive salaries
+-   Job security
+-   Data organization challenges
+:::
+
+![](data-scientists.jpg){fig-align="left" width="90%"} <a href="https://www.freepik.com/free-vector/officer-fnancial-audit-business-analysis-market-research-product-testing-data-analysis-concept-business-operation-audit-online-service-isolated-flat-vector-illustration_21586043.htm#query=data%20scientist&position=3&from_view=search&track=ais" style="font-style: italic; font-size: smaller; line-height: 1.0; vertical-align: baseline;">Image by jcomp on Freepik</a>
+:::
+:::
+:::
+
+## Data Science in Higher Education Context-I
+
+::: {style="text-align: center; font-size: 30px"}
+-   The interdisciplinary nature of data science has been discussed in data science education community (e.g., Asamoah et al., 2020)
+    -   It brings unique challenges to determine the scope and content of data science courses/majors (Yan & Davis, 2019).
+-   Some initiatives have been taken to provide curriculum guidelines for data science (e.g., De Veaux et al., 2017; National Academies of Sciences, Engineering and Medicine, 2018 ) and essential skills for a data scientist (e.g., De Veaux et al., 2017)
+    -   More research on data science education is required
+        -   to enhance the scope and
+        -   to cultivate proficient data scientists who can meet the growing demand for data scientists in various professional fields.
+:::
+
+## Data Science in Higher Education Context-II
+
+::: {style="text-align: center; font-size: 30px"}
+-   The growing demand for competent data scientists is being met by a significant number of students who have an interest in acquiring and applying data science skills. (Donoghue et al., 2021).
+    -   Students are interested in enrolling data science courses and/or pursuing a data science career.
+-   Introductory data science (IDS) course experiences have a potential to attract students to pursue majors, minors, tracks, and certificates offered by institutions (National Academies of Sciences, Engineering and Medicine Consensus Report, 2018)
+    -   Thus, IDS courses have an important role in students' decisions to become data scientists.
+:::
+
+## Introduction to Data Science Courses
+
+::: {style="text-align: left; font-size: 30px"}
+-   IDS courses are introductory courses offered by different departments such as mathematics, statistics, data science, or computer science aiming to enable individuals to grasp the basics of data science.
+    -   Even though majority of the enrolled students are from these departments, students are coming from almost every major/department to these courses.
+-   Two examples of IDS courses:
+    -   <a href = "http://www.data8.org/" style="font-size: 30px; line-height: 0.5;"> Data 8: The Foundations of Data Science</a>\
+    -   <a href = "https://datasciencebox.org/" style="font-size: 30px; line-height: 0.5;"> Data Science in a Box </a>
+:::
+
+## Teaching Data Science
+
+::: columns
+::: {.column width="40%"}
+::: fragment
+![](teaching-01.jpg){fig-align="center" width="60%"} ![](teaching-02.jpg){fig-align="center" width="80%"}
+:::
+:::
+
+::: {.column width="60%"}
+::: {style="text-align: left; font-size: 28px"}
+-   Throughout history, humanity has continually evolved in its pursuit of knowledge, developing various teaching and learning approaches, methods, and techniques to effectively communicate and impart valuable lessons from prehistoric times to the present.
+-   Data science, which dates back 1990s, is a relatively new discipline (Kelleher & Tierney, 2018) and the nature of teaching data science has been studied in a systematic manner recently compared to the other disciplines. (Schwab- McCoy et al. 2021)
+    -   Thus, it can be considered as we are still at the beginning of learning how to teach it.
+:::
+:::
+:::
+
+## Pedagogical Content Knowledge-I
+
+::: {style="text-align: center; font-size: 30px"}
+-   Pedagogical content knowledge (PCK) is one of the theoretical frameworks that provide an insight to an integration of content and pedagogy to teaching that enable instructors to monitor their teaching practices (Shulman, 1987).
+-   In addition to content knowledge, it requires additional knowledge and skills.
+-   In Magnusson et al.'s PCK model (1999) for science teaching, five components were specified as
+
+(1) orientation toward teaching;
+(2) knowledge of learners;
+(3) knowledge of curriculum;
+(4) knowledge of instructional strategies; and
+(5) knowledge of assessment.
+:::
+
+## Pedagogical Content Knowledge-II
+
+![Figure 2. Hexagon model of pedagogical content knowledge for science teaching (Park & Oliver,2008, p.279)](pck-park-oliver-2008.png){fig-align="center" width="100%"}
+
+## Aim of the study
+
+-   The objectives of this study, which is planned in line with the capacity building of educators needs regarding Introduction to Data Science teaching, consist of two stages:
+    -   exploring the Pedagogical Content Knowledge of the IDS instructors; and
+    -   developing a measurement tool that measures PCK for introduction to data science teaching.
+
+## Significance of the Study
+
+::: {style="text-align: center; font-size: 30px"}
+-   As IDS courses provides a baseline for understanding data science, determining PCK of the instructors could provide an insight for the needs in data science education.
+    -   Although the teaching materials and best practices based on the standards determined for this course in the relevant literature provide some clues, when viewed from the PCK framework, it is necessary to emphasize PCK components of IDS educators in a holistic way.
+    -   At this point, considering all the components of PCK with a holistic approach and revealing the PCK of the instructors could have a potential to contribute to the capacity building of IDS educators.
+-   Various in-service trainings or workshops can be organized in line with the needs determined according to the results of the PCK scale to be developed.
+-   It might provide an insight into the guide programs that can be constructed for the content of the IDS courses.
+:::
+
+## Methodology
+
+::: {style="font-size: 23px"}
+-   In the present study, *exploratory sequential mixed method*, which is one of the mixed method research designs, was used.
+    -   Researchers initially employ a qualitative method to uncover the essential variables that underlie a phenomenon of interest and provide insights for a subsequent quantitative method. Following that, their focus is on identifying the relationships among these variables.
+
+::: fragment
+![](exploratory.png){fig-align="center" width="60%"}
+
+::: {style="text-align: left;"}
+Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
+:::
+:::
+
+-   We completed the qualitative part of this study in the Term 1 and Term 2 of the 2022-2023 academic year.
+    -   In this part, our aim was to understand how IDS instructors interpret their teaching experiences in IDS courses and "what meaning they attribute to their experiences" (Merriam, 2009, p. 23).
+-   Quantitative part which is for testing the scale developed by the researchers will be administered in the next term.
+:::
+
+## Sampling Procedure
+
+::: {style="font-size: 28px"}
+-   We defined the target population to consist of instructors who taught an introductory data science course at least twice at the undergraduate level.
+-   Our rationale for recruiting participants was as following:
+    -   We tried to standardize the name of the IDS courses as much as possible because introductory level data science course have been offered by different countries in different departments/majors with a different range of contents depending on the departments/faculties.
+        -   We selected participants who taught a course whose title include 'Data Science' and one of the following keywords:
+            -   Introduction, Principles, Elements or Fundamentals
+    -   When an instructor teaches a course for the first time, they focus on multiple aspects of the course as a novice.
+        -   Thus, instructors who have gone through the second iteration of the course would be able to reflect deeper about the course and the students.
+-   We recruited **16 participants** (2 pilot, 14 main study) via mailing lists and online forums with large teacher-scholar communities.
+:::
+
+## Sample Profile
+
+#### IDS Instructors
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+-   All participants were from Northern America​
+-   Only 4 instructors were the sole instructor in their IDS course. The other participants have either co-instructors or PGTAs/graders.
+-   The instructors had terminal degrees in varying subjects including statistics, mathematics, computer science, genetics, and economics.
+-   They all had been teaching an introductory data science course for a varying number of years, with a range from 1 to 10 years of experience.
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+##### Formal training in Data Science
+
+Self-taught -- 4 participants
+
+Workshops -- 4 participants
+
+Industry experience -- 2 participants
+
+Others -- 5 (enrolling some DS courses in graduate years, graduated from closely related areas such as Stat and CS.
+
+##### Formal Training in Teaching
+
+Workshops -- 3 participants
+
+TA trainings -- 3 participants
+
+Course/internship -- 3 participants
+
+Degree -- 1 participant
+
+None -- 5 participants
+:::
+:::
+:::
+:::
+
+## Sample Profile
+
+#### IDS Classrooms
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+-   Students are coming from almost every major/department​
+
+    -   Majority -- Math, Stat, CS, Data Science
+    -   Others -- Engineering, business school, social science, economics, humanities, life sciences, environmental science, political science, health science, undecided
+
+-   Prerequisite **Yes** -- 6; **No** -- 8
+
+-   Prerequisite to any other course​ **Yes** -- 11; **No** -- 2; **Not sure** -- 1
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+Table 1: Class sizes reported by IDS instructors
+
+| Class Size | n   |
+|------------|-----|
+| 300+       | 2   |
+| 200-299    | 1   |
+| 100-199    | 2   |
+| ...        |     |
+| 30-39      | 2   |
+| 20-29      | 3   |
+| 10-19      | 3   |
+| 1-9        | 1   |
+:::
+:::
+:::
+:::
+
+## Data Collection
+
+::: {style="font-size: 32px"}
+-   Data collection tool was prepared by the researchers
+-   We collected data through online semi-structured interviews from 14 participants.
+    -   We designed specific questions to explore teaching experiences of IDS instructors.
+    -   We also had some follow-up questions depending on the responses to elaborate their PCK.
+-   Each participant was compensated with a £ 50 gift card for their time.
+:::
+
+## Data Analysis I
+
+::: {style="font-size: 28px"}
+-   To qualitatively code these difficulties, we used qualitative content analysis (Merriam & Tisdell, 2016) for generating a comprehensive codebook. We benefited from both deductive and inductive coding in our content analysis.
+-   We completed data analysis for the following parts:
+    -   Knowledge of students' understanding
+        -   To determine which concepts/tasks IDS students experience difficulties, we analysed responses of 3 main questions:
+
+(1) With which concepts do your students have difficulties?
+(2) What are the difficulties, if any, that students have while performing DS tasks given in your course? And
+(3) What are the conceptual difficulties, if any, that students have in your course?
+    -   We adapted the framework of Qian and Lehman (2017) which covers introductory programming students' difficulties and extended this framework to introductory data science courses.
+:::
+
+## Data Analysis II - PCK Map
+
+::: columns
+::: {.column width="60%"}
+::: {style="font-size: 24px"}
+::: fragment
+-   What does a PCK Map refer to?
+    -   The PCK mapping approach used in this study was based on the hexagon model of PCK (Park & Oliver, 2008), which defines PCK as the integration of six components.
+    -   This model emphasizes the importance of cohesive and synergistic interactions among these components. In other words, to advance to higher levels of PCK, teachers not only need to improve individual components but also strengthen the coherence between them.
+    -   This idea of coherent connections between the components aligns with the views of many PCK scholars (e.g. Park, 2019) emphasising the idea of focusing more on the interactions among the components rather than treating each component in isolation.
+    
+:::
+:::
+:::
+
+::: {.column width="40%"}
+::: {style="font-size: 24px"}
+::: fragment
+-   So far, we completed 2 PCK maps for 2 IDS instructors to see interactions of PCK components within the context of our study.
+:::
+
+::: fragment
+![Sample map of Park and Oliver, 2012](sample-map-park-oliver.png)
+:::
+:::
+:::
+:::
+
+::::
+
+## Validity and Reliability Evidences of the Study
+
+::: {style="font-size: 28px"}
+To enhance the trustworthiness of the study, we collected indicators for transferability, dependability, and credibility (Merriam & Tisdell, 2016).
+
+-   Particularly, we provided a detailed description for our participants' profile, data collection and data analysis procedures.
+-   We also had different participants (e.g., differed in terms of year of experience, terminal degree etc.) based on our selection criteria which enabled maximum variation in our sample.
+-   Our research team continuously compared and discussed to determine the extent of codebook based on the theoretical framework and data of the study.
+:::
+
+## Initial Findings on Students' Difficulties
+
+In this part, we present the findings of our qualitative content analysis, which were categorized into three themes:
+
+- Syntactic Knowledge Difficulties 
+- Conceptual Knowledge Difficulties
+- Strategic Knowledge Difficulties
+
+## 
+
+### Knowledge of Syntactic Difficulties I
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+-   Within the theme of Syntactic Knowledge Difficulties, we identified two categories based on the reports from IDS instructors.
+    -   The first category related to students' difficulties with markup languages and reproducibility tools,
+    -   The second category related to difficulties with programming languages. The codebook for these difficulties is provided in Table 2.
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 28px"}
+::: fragment
+Table 2. Knowledge of Students' Syntactic Difficulties
+
+| Categories                                 | Codes                                                                 |
+|----------------------------|--------------------------------------------|
+| Markup Languages and Reproducibility Tools | HTML, R Markdown, Quarto Markdown, Jupyter Notebook,Linux, Git/GitHub |
+| Programming Languages                      | Packages, Libraries, Misspelling, Adapting the Code, How to Read Data |
+:::
+:::
+:::
+:::
+
+## 
+
+### Knowledge of Syntactic Difficulties II
+
+::: {style="font-size: 24px"}
+-   As IDS courses utilized various markup languages, reproducibility tools, and programming languages, IDS instructors reported distinct syntactic difficulties that were specific to their course.
+    -   11 out of 14 IDS instructors observed that students without prior coding experience encountered more syntactic difficulties.
+    -   To support these students, some IDS instructors offer additional sessions and/or office hours. Here is an excerpt that provides an example related to this category:
+:::
+
+::: fragment
+::: {style="font-size: 16px"}
+**Interviewer:** And so, with which concepts do your students have difficulties? Do you have any observations for that?
+
+**Participant-06:** It varies by students \[sic\], right? Because they are computer science students \[sic\]in there, and they don't have problems with programming. But a lot of the other students have problems with programming where you know the typical are questions you get like you misspelled the data set name, or you forgot to change the data set name. We, we use the copy paste change model for teaching basic R here rather than the filling the blank which we use at the low level, elementary stat one. But, you know, did you, getting the coding to run is often very hard for the \[sic\] non-computer science students? The math students take to it okay, but the students outside of both of those tend to struggle a bit there.
+:::
+:::
+
+## 
+
+### Knowledge of Conceptual Difficulties-I
+
+::: columns
+::: {.column width="30%"}
+::: {style="font-size: 22px"}
+::: fragment
+
+We categorized conceptual knowledge difficulties into five categories:
+
+- mathematics
+- statistics
+- computer science
+- domain-specific knowledge and
+- interdisciplinary knowledge.
+
+::: fragment
+The codes that emerged from data are given in Table 3.
+:::
+
+:::
+:::
+:::
+
+::: {.column width="70%"}
+::: {style="font-size: 22px"}
+::: fragment
+
+Table 3. Knowledge of Conceptual Difficulties
+
+| Category                    | Concepts and Topics                                                                                                                                                                                                                  |
+|-------------------|-----------------------------------------------------|
+| Mathematics                 | Algorithms, Permutation Testing                                                                                                                                                                                                      |
+| Statistics                  | Types of Variables, Confidence Interval, Principles of Data Visualization, Hypothesis Testing, Correlation vs. Causality, Bootstrapping, Inductive Inference, Statistical Analysis Methods-Modelling, p-value, Sampling Distribution |
+| Computer Science            | I/O File Management, Working Mechanisms of Markup Languages, Basics of Coding, Filter Function, Basics of Web Scraping, Select Function, Joining Data Sets, Mapping Functions, Loops, Creating Functions                             |
+| Domain-Specific Knowledge   | Understanding Technical Writing, Understanding the Nature of Data                                                                                                                                                                    |
+| Interdisciplinary Knowledge | Ethics, Machine Learning                                                                                                                                                                                                             |
+:::
+:::
+:::
+:::
+
+## 
+
+### Knowledge of Conceptual Difficulties II
+
+::: {style="font-size: 30px"}
+
+- Among the IDS instructors
+  - Nine reported that students experienced difficulties in understanding statistical concepts, 
+  - Six reported difficulties in understanding computer science concepts. 
+  - Five IDS instructors mentioned difficulties in understanding either the nature of data or technical writing in a specific domain.
+- The principles of data visualization were the most frequently mentioned among the statistical concepts.
+- Understanding the basics of coding and joining data sets were two commonly reported difficulties among the computer science concepts.
+
+:::
+
+## 
+### Knowledge of Students' Strategic Knowledge Difficulties
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 22px"}
+::: fragment
+
+- Except for 3 IDS instructors, 11 reported observing strategic knowledge difficulties in their IDS courses. 
+- The most frequently mentioned difficulties were debugging and data wrangling. 
+  - Additionally, some of them denoted that students tend to oversimplify data science tasks given in IDS course and try to run a statistical analysis without thinking about the content and examining data set accordingly.
+- A sample excerpt was as following:
+
+::: fragment
+::: {style="font-size: 16px"}
+"...So certainly, so this so kind of so statistical analysis in so kind of correct statistical analysis in general is a problem. So, everyone is very tempted to just kind of throw any tool they can, they can at the problem and just like, look at the outputs to see if the if the p-value is significant. So, this so I try to instill this kind of skeptical mindset of like, you know, does that, does the model fit? Does the question make sense? ... \[conversation continues\] So that, I would say, is kind of one of the more challenging things to teach."
+:::
+:::
+
+:::
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 17px"}
+::: fragment
+
+Table 4. Knowledge of Students' Strategic Difficulties
+
+| Strategic Knowledge Difficulties                                    |                          |
+| ------------------------------------------------------------------ | ------------------------ |
+| Debugging                                                          |                          |
+| Communication                                                      |                          |
+| Data Wrangling                                                     |                          |
+| Appreciating the complexity of Interdisciplinary Research          |                          |
+| Making Appropriate Data Visualization Decisions                     |                          |
+| Creative Thinking                                                  |                          |
+| Proper Use of Descriptive Statistics                                |                          |
+| Conducting a Good Research                                          |                          |
+| Deciding Statistical Analysis Methods-Modelling                     |                          |
+| Working with Real and Messy Data                                    |                          |
+| Handling Missing Data                                               |                          |
+| Asking Good Questions                                               |                          |
+| Web Scraping                                                       |                          |
+| Setting up Data Science Pipeline                                    |                          |
+
+
+:::
+:::
+:::
+::::
+
+
+## 2 Sample PCK Maps
+
+
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 22px"}
+
+- PCK mapping approach used to explore interactions of six components of PCK.
+- The more interactions among components provide an indicator for having higher levels of PCK.
+
+:::fragment
+![Figure 5. An example of PCK Map](map-12.png)
+:::
+
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 17px"}
+::: fragment
+
+other map
+
+:::
+:::
+:::
+::::
+
+## Discussion and Conclusion - I
+
+::: {style="font-size: 28px"}
+
+- In summary of our key findings, we examined one of the components of PCK of IDS instructors 
+  - Knowledge of Students' Understanding specific to IDS courses. 
+- Most of them highlighted that students without prior programming knowledge tended to experience more syntactic difficulties and require additional support.
+- Apart from students’ difficulties, some IDS instructors in this study articulated that students have a tendency to oversimplify data science assignments in the IDS course, by attempting to run statistical analyses without adequately considering the content and carefully examining the dataset. 
+  - While some students may oversimplify IDS tasks, we suggest that this oversimplification may also be partially attributed to the difficulties that students face in these courses, which are not yet fully understood. 
+  - Therefore, further studies are needed to measure students' difficulties and identify the specific areas in which they struggle, to better understand the reasons for this “oversimplification”.
+  
+
+:::
+
+## Discussion and Conclusion - II
+
+Discussion on PCK map and its limitations
+
+## Implications and Limitations
+
+::: {style="font-size: 24px"}
+
+- It is noteworthy that while there were some commonalities among the IDS courses examined in this study, each course may have presented its own unique set of dynamics. 
+  - Therefore, our findings may serve as informative rather than generalizable constructs that can inform IDS instructors and the wider data science education community about potential student difficulties and possible teaching profiles. 
+- This study was presented from the perspective of the instructors, not the IDS students. 
+  - Thus, it is essential to conduct more systematic research to assess students’ perspectives in IDS courses as well as observe teachin performances to be able to inform policymakers and educators on how to enhance PCK of IDS instructors.
+- The sample of this study consisted of North American IDS instructors, even though we did not have such a specific aim within the context of the study. 
+  - The possible bias for sample selection might be related to the selection criteria (e.g., selecting participants based on similar course names). 
+  - In other country settings, there might be similar courses with different names. Thus, further studies in other country settings might also provide an insight into other students’ difficulties that we were not able to capture in this study.
+
+:::
+
+## What you can do to improve your PCK?
+
+::: {style="font-size: 28px"}
+
+- Following trends and issues in data science education from scientific journals (e.g., Journal of Statistics and Data Science Education,...)
+- Community
+- Your institution might offer opportunities to improve teaching
+  - If you are working at UCL, there are some upcoming seminar organised by UCL Arena
+    -  <a href="https://www.eventbrite.com/e/ucl-china-centre-teaching-and-supporting-chinese-students-ucl-staff-only-tickets-629859997207" style="font-style: italic; font-size: smaller; line-height: 1.0; vertical-align: baseline;"> UCL China Centre: Teaching and Supporting Chinese students (UCL staff only) </a>
+
+:::
+
+## Acknowledgements
+
+## References
