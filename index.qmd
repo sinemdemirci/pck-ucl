@@ -75,7 +75,7 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
 :::
 :::
 
-## Some Data of Data Science Jobs
+## Some Data on Data Science Jobs
 
 ::: columns
 ::: {.column width="55%"}
@@ -220,15 +220,16 @@ Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
 
 ## Sampling Procedure
 
-::: {style="font-size: 28px"}
--   We defined the target population to consist of instructors who taught an introductory data science course at least twice at the undergraduate level.
+::: {style="font-size: 26px"}
+-   We defined the target population to consist of instructors who **taught an introductory data science course at least twice** at the undergraduate level.
 -   Our rationale for recruiting participants was as following:
-    -   We tried to standardize the name of the IDS courses as much as possible because introductory level data science course have been offered by different countries in different departments/majors with a different range of contents depending on the departments/faculties.
+    -   We tried to **standardize the name of the IDS courses**.
         -   We selected participants who taught a course whose title include 'Data Science' and one of the following keywords:
             -   Introduction, Principles, Elements or Fundamentals
     -   When an instructor teaches a course for the first time, they focus on multiple aspects of the course as a novice.
-        -   Thus, instructors who have gone through the second iteration of the course would be able to reflect deeper about the course and the students.
+        -   Thus, instructors who have gone through the **second iteration** of the course would be able to reflect deeper about the course and the students.
 -   We recruited **16 participants** (2 pilot, 14 main study) via mailing lists and online forums with large teacher-scholar communities.
+
 :::
 
 ## Sample Profile
@@ -319,18 +320,20 @@ Table 1: Class sizes reported by IDS instructors
 ## Data Collection
 
 ::: {style="font-size: 32px"}
--   Data collection tool was prepared by the researchers
+
 -   We collected data through online semi-structured interviews from 14 participants.
     -   We designed specific questions to explore teaching experiences of IDS instructors.
     -   We also had some follow-up questions depending on the responses to elaborate their PCK.
 -   Each participant was compensated with a £ 50 gift card for their time.
+
 :::
 
-## Data Analysis I
+## Preliminary Data Analysis I
 
 ::: {style="font-size: 28px"}
--   To qualitatively code these difficulties, we used qualitative content analysis (Merriam & Tisdell, 2016) for generating a comprehensive codebook. We benefited from both deductive and inductive coding in our content analysis.
--   We completed data analysis for the following parts:
+
+- We used qualitative content analysis (Merriam & Tisdell, 2016) for generating a comprehensive codebook.
+- We completed data analysis for the following parts:
     -   Knowledge of students' understanding
         -   To determine which concepts/tasks IDS students experience difficulties, we analysed responses of 3 main questions:
 
@@ -338,14 +341,17 @@ Table 1: Class sizes reported by IDS instructors
 (2) What are the difficulties, if any, that students have while performing DS tasks given in your course? And
 (3) What are the conceptual difficulties, if any, that students have in your course?
     -   We adapted the framework of Qian and Lehman (2017) which covers introductory programming students' difficulties and extended this framework to introductory data science courses.
+    
 :::
 
-## Data Analysis II - PCK Map
+##
+### Preliminary Data Analysis II - PCK Map
 
 ::: columns
 ::: {.column width="60%"}
 ::: {style="font-size: 24px"}
 ::: fragment
+
 -   What does a PCK Map refer to?
     -   The PCK mapping approach used in this study was based on the hexagon model of PCK (Park & Oliver, 2008), which defines PCK as the integration of six components.
     -   This model emphasizes the importance of cohesive and synergistic interactions among these components. In other words, to advance to higher levels of PCK, teachers not only need to improve individual components but also strengthen the coherence between them.
@@ -366,18 +372,18 @@ Table 1: Class sizes reported by IDS instructors
 :::
 :::
 :::
-:::
-
 ::::
 
 ## Validity and Reliability Evidences of the Study
 
 ::: {style="font-size: 28px"}
+
 To enhance the trustworthiness of the study, we collected indicators for transferability, dependability, and credibility (Merriam & Tisdell, 2016).
 
 -   Particularly, we provided a detailed description for our participants' profile, data collection and data analysis procedures.
 -   We also had different participants (e.g., differed in terms of year of experience, terminal degree etc.) based on our selection criteria which enabled maximum variation in our sample.
 -   Our research team continuously compared and discussed to determine the extent of codebook based on the theoretical framework and data of the study.
+
 :::
 
 ## Initial Findings on Students' Difficulties
@@ -494,7 +500,7 @@ Table 3. Knowledge of Conceptual Difficulties
 :::
 
 ## 
-### Knowledge of Students' Strategic Knowledge Difficulties
+### Students' Strategic Knowledge Difficulties
 
 ::: columns
 ::: {.column width="50%"}
