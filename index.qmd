@@ -19,25 +19,26 @@ format:
 <img src="sinem.jpeg" alt="A headshot of a woman with curly, short, shoulder-length hair with green eyes."
   style="width: 280px; height: 280px; border-radius: 50%; margin-top: 5px; border: 1px solid whitesmoke; padding: 5px;">
 ```
-<h1 style="font-size: 36px; margin-top: 20px;line-height: 0.5;">
+<h1 style="font-size: 34px; margin-top: 20px;line-height: 0.5;">
 
 Sinem Demirci, PhD
 
 </h1>
 
-<h1 style="font-size: 36px; margin-top: 20px; line-height: 1.5;">
+<h1 style="font-size: 34px; margin-top: 20px; line-height: 1.0;">
 
 Postdoctoral Visiting Researcher/Lecturer - UCL
 
 </h1>
 
-`r fontawesome::fa(name = "link")` <a href = "http://sinemdemirci.github.io" style="font-size: 30px; line-height: 0.5;">sinemdemirci.github.io</a>\
-`r fontawesome::fa(name = "github")` <a href = "http://github.com/sinemdemirci" style="font-size: 30px; line-height: 0.5;">sinemdemirci</a>\
-`r fontawesome::fa(name = "twitter")` <a href = "http://twitter.com/sinemmdemirci" style="font-size: 30px; line-height: 0.5;">sinemmdemirci</a>\
-`r fontawesome::fa(name = "linkedin")` <a href = "https://www.linkedin.com/in/drsinemdemirci/" style="font-size: 30px; line-height: 0.5;">drsinemdemirci</a>
+`r fontawesome::fa(name = "link")` <a href = "http://sinemdemirci.github.io" style="font-size: 28px; line-height: 0.5;">sinemdemirci.github.io</a>\
+`r fontawesome::fa(name = "github")` <a href = "http://github.com/sinemdemirci" style="font-size: 28px; line-height: 0.5;">sinemdemirci</a>\
+`r fontawesome::fa(name = "twitter")` <a href = "http://twitter.com/sinemmdemirci" style="font-size: 28px; line-height: 0.5;">sinemmdemirci</a>\
+`r fontawesome::fa(name = "linkedin")` <a href = "https://www.linkedin.com/in/drsinemdemirci/" style="font-size: 28px; line-height: 0.5;">drsinemdemirci</a>\
+`r fontawesome::fa(name = "envelope")` <a href = "mailto:s.demirci@ucl.ac.uk" style="font-size: 28px; line-height: 0.5;">s.demirci@ucl.ac.uk</a>\
 :::
 
-## Today's Menu
+## Today's Outline
 
 In this talk, I will be talking about
 
@@ -51,8 +52,8 @@ In this talk, I will be talking about
 ::: columns
 ::: {.column width="50%"}
 ::: {style="font-size: 28px"}
--   Data science is a field that blends multiple areas and demands expertise in a range of skills and concepts spanning statistics, computer science, mathematics, and other domains.
--   An agreement for a single definition for data science is a difficult task because of its multifaceted nature (Mike and Hazzan, 2023).
+-   Data science is a field that blends multiple areas and demands expertise in a range of skills and concepts spanning statistics, computer science, mathematics, and other domains(Mike and Hazzan, 2023).
+-   An agreement for a single definition for data science is a difficult task because of its multifaceted nature.
 -   A Venn diagram (Figure 1) that integrates Application Domain, Mathematics & Statistics, and Computer Science is typically used to help illustrate the interdisciplinary nature of data science as a discipline.
 :::
 :::
@@ -189,16 +190,6 @@ Figure 1. Venn diagram of data science (Mike and Hazzan, 2023)
     -   exploring the Pedagogical Content Knowledge of the IDS instructors; and
     -   developing a measurement tool that measures PCK for introduction to data science teaching.
 
-## Significance of the Study
-
-::: {style="text-align: center; font-size: 30px"}
--   As IDS courses provides a baseline for understanding data science, determining PCK of the instructors could provide an insight for the needs in data science education.
-    -   Although the teaching materials and best practices based on the standards determined for this course in the relevant literature provide some clues, when viewed from the PCK framework, it is necessary to emphasize PCK components of IDS educators in a holistic way.
-    -   At this point, considering all the components of PCK with a holistic approach and revealing the PCK of the instructors could have a potential to contribute to the capacity building of IDS educators.
--   Various in-service trainings or workshops can be organized in line with the needs determined according to the results of the PCK scale to be developed.
--   It might provide an insight into the guide programs that can be constructed for the content of the IDS courses.
-:::
-
 ## Methodology
 
 ::: {style="font-size: 23px"}
@@ -253,25 +244,25 @@ Figure 3. Exploratory design. *Source: (Fraenken, Wallen & Hyun, 2012, p.560)*
 ::: fragment
 ##### Formal training in Data Science
 
-Self-taught -- 4 participants
+**Self-taught** -- 4 participants
 
-Workshops -- 4 participants
+**Workshops** -- 4 participants
 
-Industry experience -- 2 participants
+**Industry experience** -- 2 participants
 
-Others -- 5 (enrolling some DS courses in graduate years, graduated from closely related areas such as Stat and CS.
+**Others** -- 5 (enrolling some DS courses in graduate years, graduated from closely related areas such as Stat and CS.
 
 ##### Formal Training in Teaching
 
-Workshops -- 3 participants
+**Workshops** -- 3 participants
 
-TA trainings -- 3 participants
+**TA trainings** -- 3 participants
 
-Course/internship -- 3 participants
+**Course/internship** -- 3 participants
 
-Degree -- 1 participant
+**Degree** -- 1 participant
 
-None -- 5 participants
+**None** -- 5 participants
 :::
 :::
 :::
@@ -352,10 +343,11 @@ Table 1: Class sizes reported by IDS instructors
 ::: {style="font-size: 24px"}
 ::: fragment
 
--   What does a PCK Map refer to?
+- What does a PCK Map refer to?
     -   The PCK mapping approach used in this study was based on the hexagon model of PCK (Park & Oliver, 2008), which defines PCK as the integration of six components.
-    -   This model emphasizes the importance of cohesive and synergistic interactions among these components. In other words, to advance to higher levels of PCK, teachers not only need to improve individual components but also strengthen the coherence between them.
-    -   This idea of coherent connections between the components aligns with the views of many PCK scholars (e.g. Park, 2019) emphasising the idea of focusing more on the interactions among the components rather than treating each component in isolation.
+    -   This model emphasizes the importance of interactions among these components. 
+    - In other words, to advance to higher levels of PCK, teachers not only need to improve individual components but also strengthen the coherence between them.
+- So far, we completed a mapping of an IDS instructors to see interactions of PCK components within the context of our study.
     
 :::
 :::
@@ -364,11 +356,7 @@ Table 1: Class sizes reported by IDS instructors
 ::: {.column width="40%"}
 ::: {style="font-size: 24px"}
 ::: fragment
--   So far, we completed 2 PCK maps for 2 IDS instructors to see interactions of PCK components within the context of our study.
-:::
-
-::: fragment
-![Sample map of Park and Oliver, 2012](sample-map-park-oliver.png)
+![Sample map of Park and Oliver, 2012](sample-map-park-oliver.png){fig-align="center" width="80%"}
 :::
 :::
 :::
@@ -388,14 +376,11 @@ To enhance the trustworthiness of the study, we collected indicators for transfe
 
 ## Initial Findings on Students' Difficulties
 
-In this part, we present the findings of our qualitative content analysis, which were categorized into three themes:
+In this part, we present the findings of our qualitative content analysis for a single component of PCK which were categorized into three themes: (1) Knowledge of Syntactic  Difficulties; (2) Knowledge of Conceptual Difficulties; and (3) Knowledge of Strategic Knowledge Difficulties.
 
-- Syntactic Knowledge Difficulties 
-- Conceptual Knowledge Difficulties
-- Strategic Knowledge Difficulties
+We also introduce a PCK map of an IDS instructor participated in our study.
 
 ## 
-
 ### Knowledge of Syntactic Difficulties I
 
 ::: columns
@@ -427,29 +412,21 @@ Table 2. Knowledge of Students' Syntactic Difficulties
 
 ### Knowledge of Syntactic Difficulties II
 
-::: {style="font-size: 24px"}
+::: {style="font-size: 30px"}
 -   As IDS courses utilized various markup languages, reproducibility tools, and programming languages, IDS instructors reported distinct syntactic difficulties that were specific to their course.
     -   11 out of 14 IDS instructors observed that students without prior coding experience encountered more syntactic difficulties.
-    -   To support these students, some IDS instructors offer additional sessions and/or office hours. Here is an excerpt that provides an example related to this category:
-:::
-
-::: fragment
-::: {style="font-size: 16px"}
-**Interviewer:** And so, with which concepts do your students have difficulties? Do you have any observations for that?
-
-**Participant-06:** It varies by students \[sic\], right? Because they are computer science students \[sic\]in there, and they don't have problems with programming. But a lot of the other students have problems with programming where you know the typical are questions you get like you misspelled the data set name, or you forgot to change the data set name. We, we use the copy paste change model for teaching basic R here rather than the filling the blank which we use at the low level, elementary stat one. But, you know, did you, getting the coding to run is often very hard for the \[sic\] non-computer science students? The math students take to it okay, but the students outside of both of those tend to struggle a bit there.
-:::
+    -   To support these students, some IDS instructors offer additional sessions and/or office hours.
+    
 :::
 
 ## 
-
 ### Knowledge of Conceptual Difficulties-I
 
 ::: columns
 ::: {.column width="30%"}
 ::: {style="font-size: 22px"}
 ::: fragment
-
+::: {.nonincremental}
 We categorized conceptual knowledge difficulties into five categories:
 
 - mathematics
@@ -458,8 +435,8 @@ We categorized conceptual knowledge difficulties into five categories:
 - domain-specific knowledge and
 - interdisciplinary knowledge.
 
-::: fragment
 The codes that emerged from data are given in Table 3.
+
 :::
 
 :::
@@ -489,6 +466,7 @@ Table 3. Knowledge of Conceptual Difficulties
 ### Knowledge of Conceptual Difficulties II
 
 ::: {style="font-size: 30px"}
+::: {.nonincremental}
 
 - Among the IDS instructors
   - Nine reported that students experienced difficulties in understanding statistical concepts, 
@@ -498,6 +476,7 @@ Table 3. Knowledge of Conceptual Difficulties
 - Understanding the basics of coding and joining data sets were two commonly reported difficulties among the computer science concepts.
 
 :::
+:::
 
 ## 
 ### Students' Strategic Knowledge Difficulties
@@ -506,18 +485,18 @@ Table 3. Knowledge of Conceptual Difficulties
 ::: {.column width="50%"}
 ::: {style="font-size: 22px"}
 ::: fragment
+::: {.nonincremental}
 
 - Except for 3 IDS instructors, 11 reported observing strategic knowledge difficulties in their IDS courses. 
 - The most frequently mentioned difficulties were debugging and data wrangling. 
   - Additionally, some of them denoted that students tend to oversimplify data science tasks given in IDS course and try to run a statistical analysis without thinking about the content and examining data set accordingly.
 - A sample excerpt was as following:
 
-::: fragment
+
 ::: {style="font-size: 16px"}
 "...So certainly, so this so kind of so statistical analysis in so kind of correct statistical analysis in general is a problem. So, everyone is very tempted to just kind of throw any tool they can, they can at the problem and just like, look at the outputs to see if the if the p-value is significant. So, this so I try to instill this kind of skeptical mindset of like, you know, does that, does the model fit? Does the question make sense? ... \[conversation continues\] So that, I would say, is kind of one of the more challenging things to teach."
 :::
 :::
-
 :::
 :::
 :::
@@ -552,34 +531,16 @@ Table 4. Knowledge of Students' Strategic Difficulties
 ::::
 
 
-## 2 Sample PCK Maps
+## A Sample PCK Map
 
+::: {style="font-size: 26px"}
 
-
-::: columns
-::: {.column width="50%"}
-::: {style="font-size: 22px"}
-
-- PCK mapping approach used to explore interactions of six components of PCK.
-- The more interactions among components provide an indicator for having higher levels of PCK.
+- PCK mapping approach used to explore interactions of six components of PCK. The more interactions among components provide an indicator for having higher levels of PCK.
 
 :::fragment
-![Figure 5. An example of PCK Map](map-12.png)
-:::
-
+![Figure 5. An example of PCK Map](map-12.png){fig-align="center" width="70%"}
 :::
 :::
-
-::: {.column width="50%"}
-::: {style="font-size: 17px"}
-::: fragment
-
-other map
-
-:::
-:::
-:::
-::::
 
 ## Discussion and Conclusion - I
 
@@ -596,8 +557,14 @@ other map
 :::
 
 ## Discussion and Conclusion - II
-
-Discussion on PCK map and its limitations
+::: {style="font-size: 28px"}
+- We employed PCK mapping to one of our participants to see if this approach might be potentially useful to examine PCK of IDS instructors. 
+  - We chose a participant that we acquired least information from their data set and tested to see any convergence between the responses and the map.
+  - This enumarative approach seemed produced an expected map and it might be potentially a useful approach to unravel the PCK of our participants.
+  
+- Park and Suh (2019) denoted that building a PCK map to examine the interactions between PCK components is one of the useful approach to visualise a person's PCK.
+  - They also highlighted that this map tends to overlook important contextual and emotional factors that influence teachers' enacted pedagogical content knowledge and how enacted PCK relates to teachers' personal PCK.
+:::
 
 ## Implications and Limitations
 
@@ -613,18 +580,45 @@ Discussion on PCK map and its limitations
 
 :::
 
-## What you can do to improve your PCK?
-
-::: {style="font-size: 28px"}
-
-- Following trends and issues in data science education from scientific journals (e.g., Journal of Statistics and Data Science Education,...)
-- Community
-- Your institution might offer opportunities to improve teaching
-  - If you are working at UCL, there are some upcoming seminar organised by UCL Arena
-    -  <a href="https://www.eventbrite.com/e/ucl-china-centre-teaching-and-supporting-chinese-students-ucl-staff-only-tickets-629859997207" style="font-style: italic; font-size: smaller; line-height: 1.0; vertical-align: baseline;"> UCL China Centre: Teaching and Supporting Chinese students (UCL staff only) </a>
-
-:::
-
 ## Acknowledgements
 
+- This study is funded by The Scientific and Technological Research Council of Turkey, TÜBİTAK and University College London.
+
+- Collaborators of this project are Dr Mine Dogucu, Assist. Prof. Dr Joshua M. Rosenberg and Teaching Assoc. Prof. Dr Andrew Zieffler
+
 ## References
+::: {style="font-size: 14px"}
+Asamoah, D. A., Doran, D., & Schiller, S. (2020). Interdisciplinarity in data science pedagogy: a foundational design. Journal of Computer Information Systems, 60(4), 370-377, https://doi.org/10.1080/08874417.2018.1496803 
+
+De Veaux, R. D., Agarwal, M., Averett, M., Baumer, B. S., Bray, A., Bressoud, T. C., ... & Ye, P. (2017). Curriculum guidelines for undergraduate programs in data science. Annual Review of Statistics and Its Application, 4, 15-30.
+
+Donoghue, T., Voytek, B., & Ellis, S. E. (2021). Teaching creative and practical data science at scale. Journal of Statistics and Data Science Education, 29(sup1), 27-39, https://doi.org/10.1080/10691898.2020.1860725 
+
+Fraenkel, J. R., Wallen, N. E., & Hyun, H. H. (2012). How to design and evaluate research in education (Vol. 7, p. 429). New York: McGraw-hill.
+
+Kelleher, J. D., & Tierney, B. (2018). Data science. MIT Press.
+
+Magnusson, S.J., Borko, H., & Krajcik, J.S. (1999). Nature, source, and development of pedagogical content knowledge for science teaching. In: Gess-Newsome, J., & Lederman, N., (Eds.), Examining Pedagogical Content Knowledge. United States: Kluwer Press. pp. 95-132
+
+Merriam, S. B. (2009). Qualitative Research: A Guide to Design and Implementation. San Francisco: CA: Jossey-Bass. 
+
+Merriam, S. B., & Tisdell, E. J. (2016). Qualitative Research: A Guide to Design and Implementation (Fourth Edition). San Francisco.
+
+Mike K. & Hazzan, O. (February 2023). What is data science? Communications of the ACM, 66(2), 12–13, https://doi.org/10.1145/3575663
+
+National Academies of Sciences, Engineering and Medicine Consensus Report (2018). Data Science for Undergraduates: Opportunities and Options. Washington,  https://nas.edu/envisioningds. 
+
+Park, S., & Chen, Y. C. (2012). Mapping out the integration of the components of pedagogical content knowledge (PCK): Examples from high school biology classrooms. Journal of research in science teaching, 49(7), 922-941.
+
+Park, S., & Oliver, J. S. (2008). Revisiting the conceptualisation of pedagogical content knowledge (PCK): PCK as a conceptual tool to understand teachers as professionals. Research in science Education, 38, 261-284.
+
+Park, S., & Suh, J. K. (2019). The PCK map approach to capturing the complexity of enacted PCK (ePCK) and pedagogical reasoning in science teaching. In Repositioning pedagogical content knowledge in teachers’ knowledge for teaching science, 187-199.
+
+Qian, Y., & Lehman, J. (2017). Students’ misconceptions and other difficulties in introductory programming: A literature review. ACM Transactions on Computing Education (TOCE), 18(1), 1-24, https://doi.org/10.3102/0002831213477680 
+
+Shulman, L. (1987). Knowledge and teaching: Foundations of the new reform. Harvard Educational Review, 57(1), 1-23.
+
+Schwab-McCoy, A., Baker, C. M., & Gasper, R. E. (2021). Data science in 2020: Computing, curricula, and challenges for the next 10 years. Journal of Statistics and Data Science Education, 29(sup1), S40-S50.
+
+Yan, D., & Davis, G. E. (2019). A first course in data science. Journal of Statistics Education, 27(2), 99-109, https://doi.org/10.1080/10691898.2019.1623136 
+:::
